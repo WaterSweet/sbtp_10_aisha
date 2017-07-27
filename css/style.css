@@ -394,3 +394,20 @@ p {
 	float: left;
 	font-family: "微软雅黑";
 }
+
+
+
+.picture{
+	margin-left: 14%;
+	margin-top: 10%;
+	position: absolute;		
+}
+
+.picture p{
+	font-family: 黑体;
+	font-size: 20px;
+}
+
+.picture>a>img + >a>img{
+	margin-left: 70px;	
+}
