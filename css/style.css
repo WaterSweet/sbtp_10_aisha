@@ -368,3 +368,29 @@ p {
 	margin-top: 10%; 
 	margin-left: 20%;
 }
+
+.navbar{
+	text-align: left;
+	margin-left:70% ;
+}
+
+.navbar ul{
+	display: inline-block;
+}
+
+.navbar li{
+	float: left;
+}
+
+.navbar li + li{
+	margin-left: 70px;
+}
+
+#a ul {
+	list-style-type: none;
+}
+
+#a li {
+	float: left;
+	font-family: "微软雅黑";
+}
