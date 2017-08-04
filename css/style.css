@@ -408,6 +408,16 @@ p {
 	font-size: 20px;
 }
 
-.picture>a>img + >a>img{
-	margin-left: 70px;	
+.picture ul{
+	display: inline-block;
+	list-style-type: none;
 }
+
+.picture li{
+	float: left;
+}
+
+.picture li + li{
+	margin-left: 70px;
+}
+
